@@ -1,0 +1,197 @@
+body{
+    background-color: black;
+    color: white;
+   }
+
+ #task{
+  font-size: 65px;
+  margin-left: 21%;
+  font-weight: bolder;
+  }
+
+   #top{ 
+margin-top:4%;  
+margin-bottom: 10px;
+ letter-spacing: 2px;
+ font-family: Arial, Helvetica, sans-serif;
+       } 
+       
+       #list{
+           font-size: 50px;
+           font-weight: lighter;
+           font-family: system-ui;
+       }
+       
+       #add{
+           font-size: 37px;
+           font-family: system-ui;
+           font-weight: lighter;
+           position: relative;
+           left: 33%;
+       }
+   
+       i{
+           color: blue;
+           font-size: 40px;
+           position: absolute;
+           right: 410px;
+           top: 86px;
+       }
+   
+       #no{
+           position: absolute;
+           left: 22%;
+           font-size: 40px;
+           font-family: system-ui;
+           font-weight: lighter;
+       }
+   
+       .child{
+           /* padding-top: 20px; */
+           height: 380px;
+           width: 230px;
+           text-align: center;
+           border-radius: 15px;
+           background-color: white;
+           margin-right: 58px;
+           margin-bottom: 25px;
+           color:red;
+       }
+       .parent{
+           display: flex;
+           flex-wrap: wrap;
+           /* margin-left: 18%;
+           margin-top: 8%; */ 
+           margin: 8% 11% 0% 11%;
+       }
+    
+          
+.child p {
+    height: 0px;
+    /* width: 30px; */
+        font-size:25px;
+        padding-bottom: 10px;
+        /* text-decoration: line-through;
+     text-decoration-color: black ; */
+}
+
+   #add-btn i{
+ color: rgb(69, 169, 202);
+ }
+span i{
+position: relative;
+top: 5px;
+left: 60px;
+font-size: 30px;
+color: red;
+  }
+
+  .donebtn{
+      height:20px;
+      width: 65px;
+      color:white;
+      background-color:blue;
+      border:1px solid blue;
+      font-size: 10px;
+      /* font-weight: 400; */
+      padding: 0px;
+      margin-left: 22px;
+  }
+  .listitem{
+    color: gray;
+    font-size: 20px;
+    list-style-type: none;
+    margin-bottom: 15px;
+  }
+   /* .task-name{
+    margin-right: 112px;
+   } */
+
+ /* *************pop-up********** */
+
+  #pop-up{
+    border: 2px solid brown;
+    height: 225px;
+    width: 440px;
+    color: red;
+    position: absolute;
+    top: 261px;
+    left: 35%;
+    border-radius: 15px;
+    background-color: white;
+    visibility: hidden;
+       }
+
+       #pop-up2{
+    border: 2px solid brown;
+    height: 225px;
+    width: 440px;
+    color: red;
+    position: absolute;
+    top: 261px;
+    left: 35%;
+    border-radius: 15px;
+    background-color: white;
+    visibility: hidden;
+       }
+
+       .a{  
+    text-align: center;
+    position: relative;
+    top: 38px;
+    font-size: 30px;
+    font-family: arial,sans-serif;
+       }
+
+       #text{   
+    font-size: x-large;
+    position: relative;
+    top: 55px;
+    left: 75px;
+    border: 2px solid;
+    height: 35px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px grey;
+       }
+       #text1{   
+        font-size: x-large;
+        position: relative;
+        top: 55px;
+        left: 75px;
+        border: 2px solid;
+        height: 35px;
+        border-radius: 8px;
+        box-shadow: 1px 1px 4px grey;
+           }
+
+       .add {
+        position: absolute;
+        bottom: 11%;
+        left: 100px;
+    }
+
+    .close {
+        position: absolute;
+        bottom: 11%;
+        left: 240px;
+    }
+
+.task-name {
+    position: relative;
+    left: -42px;
+}
+button {
+    padding: 9px;
+    border-radius: 40px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    font-size: 26px;
+    width: 102px;
+    height: 45px;
+}
+.list{
+    height:250px;
+  
+   
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do app-js</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+   <div id="container">
+    <div id="top">
+        <span id="task"> Tasks </span> <span id="list">Lists</span>
+            
+               <i onclick="showpopup ()"class="fas fa-plus-circle"></i>
+
+            <span id="add">Add Item</span>
+        </div>
+
+        <div id="no">
+           <p> No items in the todo list  </p>
+        </div>
+    </div>
+
+         <div id="pop-up">
+
+            <div class="a"> Add New Task</div>
+            <label for="text"></label>
+            <input type="text" id="text" value="" >
+
+            <button class="add" id="add-btn2" onclick="addcards ()">Add</button>
+
+            <button class="close" id="btn-close">Close</button>
+         </div>
+
+         <div id="pop-up2">
+
+            <div class="a"> Add New List</div>
+            <label for="text"></label>
+            <input type="text" id="text1" value="" >
+
+            <button class="add" id="add-btn3" onclick="showlist ()">Add</button>
+            <button class="close" id="btn-close2">Close</button>
+
+         </div>
+
+
+     <div id="blankdiv" class="parent">    
+        <!-- <div class="child">
+           <p>random</p><hr>
+           <span id="del-btn"> <i class="fas fa-trash-alt"></i> </span> 
+            <span id="add-btn"> <i class="fas fa-plus-circle"></i></span>
+      </div>  -->
+
+      <!-- <div class="child" id="">
+         <p>$</p><hr>
+
+         <ul class="list">
+           <li class="listitem">first  <button class="donebtn">Mark Done</button></li>
+           <li class="listitem">second <button class="donebtn">Mark Done</button></li>
+
+         </ul>
+        
+         <span id="del-btn" onclick="removetask()"> <i class="fas fa-trash-alt"></i> </span> 
+          <span id="add-btn" onclick="edittask()"> <i class="fas fa-plus-circle"></i></span>
+        
+    </div> -->
+     </div>
+    <script src="./index.js"></script>
+</body>
+</html>
